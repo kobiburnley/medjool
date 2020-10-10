@@ -1,0 +1,15 @@
+# Defines a default set of lint rules enforced for
+# projects at Google. For details and rationale,
+# see https://github.com/dart-lang/pedantic#enabled-lints.
+include: package:effective_dart/analysis_options.yaml
+
+linter:
+  rules:
+    public_member_api_docs: false
+    lines_longer_than_80_chars: false
+    unnecessary_lambdas: false
+    avoid_catches_without_on_clauses: false
+
+analyzer:
+#   exclude:
+#     - path/to/excluded/files/**
